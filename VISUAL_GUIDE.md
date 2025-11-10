@@ -21,7 +21,7 @@ This guide provides step-by-step screenshots and instructions for using GitHub's
 
 **What you need:**
 - A GitHub account (free)
-- PNG files from your Jupyter notebooks
+- PNG files from your Google Colab notebooks
 - Your research content ready to add
 
 ---
