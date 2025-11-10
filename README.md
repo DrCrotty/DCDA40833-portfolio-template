@@ -6,34 +6,48 @@ This template provides everything you need to create a professional web portfoli
 
 ---
 
-## Quick Start (5 Minutes)
+## Quick Start (No Command Line Required!)
 
-### Option 1: Use as GitHub Template (Recommended for Groups)
+### Use as GitHub Template (Recommended)
 
-1. **Click "Use this template"** button at top of repository
+**All editing happens in your web browser - no downloads needed!**
+
+1. **Click "Use this template"** button at top of this repository (green button)
 2. **Create your repository:**
    - Name it: `your-project-name` (use hyphens, all lowercase)
    - Description: Your project title in plain English
    - Make it **Public** (required for GitHub Pages)
    - Click **"Create repository from template"**
-3. **Add group members as collaborators:**
+3. **Add group members as collaborators (if working in groups):**
    - Go to Settings → Collaborators
    - Click "Add people"
    - Enter their GitHub usernames
-4. **Clone to your computer:**
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/your-project-name.git
-   cd your-project-name
-   ```
-5. **Start customizing** `index.html` (see below)
+4. **Edit files directly on GitHub:**
+   - Click `index.html` in your repository
+   - Click the ✏️ (pencil) icon to edit
+   - Make your changes
+   - Scroll down and click "Commit changes"
+5. **Upload visualizations:**
+   - Click into `images/` folder
+   - Click "Add file" → "Upload files"
+   - Drag PNG files from your computer
+   - Click "Commit changes"
 
-### Option 2: Download and Upload
+### Alternative: Download and Edit Locally
 
-1. **Download** this repository as ZIP
-2. **Extract** and rename folder to your project name
-3. **Create new repository** on your GitHub account
-4. **Upload** all files to your new repository
-5. **Add group members** as collaborators (Settings → Collaborators)
+If you prefer to edit files on your computer (with VS Code or other text editor):
+
+1. **Click "Use this template"** (same as above)
+2. **Download your repository:**
+   - Click the green "Code" button
+   - Select "Download ZIP"
+   - Extract to your computer
+3. **Edit files** in VS Code or any text editor
+4. **Upload changes back to GitHub:**
+   - Go to your repository on GitHub
+   - Click "Add file" → "Upload files"
+   - Drag edited `index.html` and any new images
+   - Click "Commit changes"
 
 ---
 
@@ -150,46 +164,63 @@ Make your portfolio publicly accessible in 3 steps:
 
 ## Working as a Group
 
-### Recommended Workflow
+### Web-Based Workflow (No Command Line!)
+
+**Recommended approach for editing directly on GitHub:**
 
 1. **One person creates the repository** from this template
-2. **Add all group members** as collaborators (Settings → Collaborators)
-3. **Each person clones** the repository to their computer
-4. **Divide sections:**
+2. **Add all group members** as collaborators:
+   - Settings → Collaborators → Add people
+   - Enter their GitHub usernames
+3. **Divide sections** (coordinate who edits what):
    - Person A: Research Question, Data & Methods
    - Person B: Results & Analysis, visualizations
    - Person C: Key Findings, Critical Reflection
-5. **Use branches** for each section (optional but recommended):
-   ```bash
-   git checkout -b data-methods-section
-   # Make your changes
-   git add index.html
-   git commit -m "Add data and methods section"
-   git push origin data-methods-section
-   ```
-6. **Merge together** on GitHub (Pull Requests) or in person
-7. **Test together** before final submission
+4. **Each person edits on GitHub:**
+   - Click `index.html` → Click ✏️ (pencil icon)
+   - Edit your section
+   - Add commit message like "Add data and methods section"
+   - Click "Commit changes"
+5. **Avoid editing simultaneously:**
+   - **Important:** Don't edit the same file at the same time!
+   - Coordinate on Slack/text: "I'm editing the Research Question now"
+   - Refresh the page before editing to see latest changes
+6. **Upload images:**
+   - Go to `images/` folder
+   - Click "Add file" → "Upload files"
+   - Add commit message like "Add sentiment analysis chart"
 
-### Git Commands Refresher
+### Handling Conflicts
 
-```bash
-# Check status
-git status
+If you both edit at the same time, you might see an error:
 
-# Pull latest changes from team
-git pull
+**Solution 1: Take turns**
+- Communicate before editing: "I'm working on the Methods section now"
+- Wait for teammate to commit before you start editing
 
-# Add your changes
-git add index.html images/
+**Solution 2: Work in separate files**
+- One person creates `draft.md` with their content
+- Main editor copies content into `index.html` later
 
-# Commit with message
-git commit -m "Add sentiment analysis visualization"
+**Solution 3: Download and merge manually**
+- Download both versions
+- Copy/paste sections together in text editor
+- Upload merged version
 
-# Push to GitHub
-git push
+### Local Editing Workflow (Optional)
 
-# If you get conflicts, ask for help in class!
-```
+If your group prefers to edit locally with VS Code:
+
+1. **Each person downloads** repository as ZIP (Code → Download ZIP)
+2. **Edit your section** in your local file
+3. **Coordinate before uploading:**
+   - "I'm uploading the Research Question section now"
+4. **Upload via GitHub web:**
+   - Add file → Upload files
+   - Drag `index.html`
+   - Commit changes
+
+**Tip:** Keep communication open - conflicts happen when two people upload different versions of the same file!
 
 ---
 

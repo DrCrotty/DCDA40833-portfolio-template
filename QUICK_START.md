@@ -1,36 +1,63 @@
 # Quick Start Guide
 
-## 5-Minute Setup
+## 5-Minute Setup (No Downloads Required!)
 
-### 1. Get the Template
-- Download the `portfolio-template` folder
-- Rename it to your project name
+### Option A: Edit on GitHub (Easiest - No Command Line!)
 
-### 2. Open in Text Editor
-- Open `index.html` in VS Code (or any text editor)
+1. **Create your copy:**
+   - Click green **"Use this template"** button at top
+   - Name it: `your-project-name`
+   - Make it **Public**
+   - Click "Create repository from template"
 
-### 3. Find & Replace
-Use your text editor's Find & Replace (Ctrl+F / Cmd+F):
-- Replace `Your Name` → Your actual name
-- Replace `Your Project Title` → Your project title
-- Replace `yourusername` → Your GitHub username (in footer link)
+2. **Edit HTML directly on GitHub:**
+   - Click `index.html` in your new repository
+   - Click the ✏️ (pencil icon) at top right
+   - Find `Your Name` and replace with your actual name
+   - Find `Your Project Title` and replace with your title
+   - Scroll to `<!-- TODO: ... -->` comments and add your content
+   - Scroll down and click **"Commit changes"**
 
-### 4. Fill in Content
-Look for `<!-- TODO: ... -->` comments and replace with your content:
+3. **Upload visualizations:**
+   - Click into `images/` folder
+   - Click "Add file" → "Upload files"
+   - Drag PNG files from your computer
+   - Click "Commit changes"
 
-```html
-<!-- TODO: Add your research question here -->
-<p>What patterns of sentiment emerge in climate change discourse on Twitter?</p>
-```
+4. **Enable GitHub Pages:**
+   - Go to Settings → Pages
+   - Source: Deploy from branch `main`
+   - Click Save
+   - Your site will be live at: `YOUR-USERNAME.github.io/your-project-name`
 
-### 5. Add Images
-1. Export visualizations from Jupyter as PNG
-2. Save to `images/` folder
-3. Update image filenames in HTML if needed
+### Option B: Download and Edit Locally
 
-### 6. Preview
-- Double-click `index.html` to open in browser
-- Refresh after making changes
+1. **Get the template:**
+   - Click green "Code" button → Download ZIP
+   - Extract folder and rename to your project name
+
+2. **Edit in text editor:**
+   - Open `index.html` in VS Code (or any text editor)
+   - Use Find & Replace (Ctrl+F / Cmd+F):
+     - Replace `Your Name` → Your actual name
+     - Replace `Your Project Title` → Your project title
+     - Replace `yourusername` → Your GitHub username
+
+3. **Fill in content:**
+   - Look for `<!-- TODO: ... -->` comments
+   - Replace with your research content
+
+4. **Add images:**
+   - Export visualizations from Jupyter as PNG
+   - Save to `images/` folder
+
+5. **Upload to GitHub:**
+   - Create new repository on GitHub (make it Public)
+   - Click "Add file" → "Upload files"
+   - Drag all files from your folder
+   - Click "Commit changes"
+
+6. **Enable GitHub Pages** (same as Option A above)
 
 ## Key Sections to Fill In
 
