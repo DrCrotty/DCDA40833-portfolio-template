@@ -20,6 +20,57 @@ This guide provides step-by-step instructions for using GitHub's web interface t
 
 ---
 
+## 🚨 GROUPS: Start Here First!
+
+**If you're working in a group, read this section BEFORE creating your repository!**
+
+### Step 0: Designate Repository Owner (Group Work)
+
+**⚠️ IMPORTANT: Only ONE person creates the repository**
+
+**Group decision time:**
+
+```
+Your group needs to choose ONE person to:
+✅ Create the repository from the template
+✅ Own the repository on their GitHub account
+✅ Add everyone else as collaborators
+```
+
+**Who should be the repository owner?**
+
+Good choices:
+- The person most comfortable with GitHub
+- Your designated "web developer" for the project
+- Someone who will stay organized and responsive
+- Anyone willing to be the main point of contact
+
+**What happens:**
+
+```
+Step 1: Repository Owner creates repo from template
+   ↓
+Step 2: Repository Owner adds teammates as collaborators
+   ↓
+Step 3: Everyone else receives invitation email
+   ↓
+Step 4: Everyone accepts invitation
+   ↓
+Step 5: Everyone clones the repository
+   ↓
+Step 6: Team works together!
+```
+
+**Repository will live at:**
+- `https://github.com/OWNER-USERNAME/project-name`
+- Example: `https://github.com/alexchen/twitter-sentiment-analysis`
+
+**Note:** Even though it's on one person's account, **everyone has full edit access** once added as collaborators!
+
+**✅ Once you've chosen your repository owner, that person continues to Step 1 below.**
+
+---
+
 ## Step 1: Use the Template
 
 ### Creating Your Portfolio Repository
@@ -260,54 +311,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Step 10: Designate Repository Owner (Group Work)
-
-### Before You Start: Choose Your Team Lead
-
-**⚠️ IMPORTANT: Only ONE person creates the repository**
-
-**Group decision time:**
-
-```
-Your group needs to choose ONE person to:
-✅ Create the repository from the template
-✅ Own the repository on their GitHub account
-✅ Add everyone else as collaborators
-```
-
-**Who should be the repository owner?**
-
-Good choices:
-- The person most comfortable with GitHub
-- Your designated "web developer" for the project
-- Someone who will stay organized and responsive
-- Anyone willing to be the main point of contact
-
-**What happens:**
-
-```
-Step 1: Repository Owner creates repo from template
-   ↓
-Step 2: Repository Owner adds teammates as collaborators
-   ↓
-Step 3: Everyone else receives invitation email
-   ↓
-Step 4: Everyone accepts invitation
-   ↓
-Step 5: Everyone clones the repository
-   ↓
-Step 6: Team works together!
-```
-
-**Repository will live at:**
-- `https://github.com/OWNER-USERNAME/project-name`
-- Example: `https://github.com/alexchen/twitter-sentiment-analysis`
-
-**Note:** Even though it's on one person's account, **everyone has full edit access** once added as collaborators!
-
----
-
-## Step 11: Add Collaborators (Group Work)
+## Step 10: Add Collaborators (Group Work)
 
 ### Setting Up Team Access
 
@@ -342,7 +346,7 @@ Step 6: Team works together!
 
 ---
 
-## Step 12: Clone to GitHub Desktop (Group Work)
+## Step 11: Clone to GitHub Desktop (Group Work)
 
 ### Getting the Repository on Your Computer
 
@@ -387,7 +391,7 @@ Step 6: Team works together!
 
 ---
 
-## Step 13: Coordination Strategy (Group Work)
+## Step 12: Coordination Strategy (Group Work)
 
 ### The Golden Rule: **PULL → EDIT → COMMIT → PUSH**
 
@@ -482,7 +486,7 @@ Step 4: PUSH (Send to GitHub)
 
 ---
 
-## Step 14: Division of Labor (Group Work)
+## Step 13: Division of Labor (Group Work)
 
 ### Suggested Section Assignments
 
@@ -526,7 +530,7 @@ Step 4: PUSH (Send to GitHub)
 
 ---
 
-## Step 15: Handling Merge Conflicts (Group Work)
+## Step 14: Handling Merge Conflicts (Group Work)
 
 ### Prevention is Best!
 
@@ -643,7 +647,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 16: Preview Your Work
+## Step 15: Preview Your Work
 
 ### Checking Your Portfolio Before Publishing
 
@@ -662,7 +666,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 17: Enable GitHub Pages
+## Step 16: Enable GitHub Pages
 
 ### Publishing Your Portfolio to the Web
 
@@ -689,7 +693,7 @@ Option C: Combine both (best option!)
 
 ---
 
-## Step 18: Get Your URL
+## Step 17: Get Your URL
 
 ### Your Portfolio Is Live!
 
