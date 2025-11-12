@@ -6,9 +6,12 @@ This template provides everything you need to create a professional web portfoli
 
 ---
 
-## Quick Start (No Command Line Required!)
+## Quick Start
 
-**Never used command line? No problem!** See [WEB_WORKFLOW.md](WEB_WORKFLOW.md) for a complete step-by-step guide with screenshots.
+**Choose your workflow:**
+- 📖 **[VISUAL_GUIDE.md](VISUAL_GUIDE.md)** - Complete step-by-step tutorial with visuals (best for groups)
+- ⚡ **[QUICK_START.md](QUICK_START.md)** - Fast reference guide (5-minute setup)
+- 👨‍🏫 **[INSTRUCTOR_SETUP.md](INSTRUCTOR_SETUP.md)** - For instructors setting up the template
 
 ### Use as GitHub Template (Recommended)
 
@@ -20,35 +23,40 @@ This template provides everything you need to create a professional web portfoli
    - Description: Your project title in plain English
    - Make it **Public** (required for GitHub Pages)
    - Click **"Create repository from template"**
-3. **Add group members as collaborators (if working in groups):**
-   - Go to Settings → Collaborators
-   - Click "Add people"
-   - Enter their GitHub usernames
-4. **Edit files directly on GitHub:**
+3. **For groups: Designate one person as repository owner**
+   - This person creates the repository from the template
+   - Then adds teammates as collaborators (Settings → Collaborators)
+4. **Clone with GitHub Desktop:**
+   - Click green "Code" button → "Open with GitHub Desktop"
+   - Choose where to save on your computer
+   - Click "Clone"
+5. **Edit files locally:**
+   - Open in VS Code or your preferred text editor
+   - Edit `index.html` to add your content
+   - Save changes
+6. **Commit and push with GitHub Desktop:**
+   - Review changes in GitHub Desktop
+   - Add commit message (e.g., "Add research question")
+   - Click "Commit to main"
+   - Click "Push origin"
+7. **Upload visualizations:**
+   - Save PNG files to `images/` folder
+   - Commit and push through GitHub Desktop
+
+### Alternative: Web-Only Workflow
+
+If you prefer to edit directly on GitHub (no downloads):
+
+1. **Click "Use this template"** (same as above)
+2. **Edit files directly on GitHub:**
    - Click `index.html` in your repository
    - Click the ✏️ (pencil) icon to edit
    - Make your changes
    - Scroll down and click "Commit changes"
-5. **Upload visualizations:**
+3. **Upload visualizations:**
    - Click into `images/` folder
    - Click "Add file" → "Upload files"
    - Drag PNG files from your computer
-   - Click "Commit changes"
-
-### Alternative: Download and Edit Locally
-
-If you prefer to edit files on your computer (with VS Code or other text editor):
-
-1. **Click "Use this template"** (same as above)
-2. **Download your repository:**
-   - Click the green "Code" button
-   - Select "Download ZIP"
-   - Extract to your computer
-3. **Edit files** in VS Code or any text editor
-4. **Upload changes back to GitHub:**
-   - Go to your repository on GitHub
-   - Click "Add file" → "Upload files"
-   - Drag edited `index.html` and any new images
    - Click "Commit changes"
 
 ---
@@ -62,8 +70,10 @@ portfolio-template/
 │   └── styles.css          ← Professional CSS (TCU colors, fully responsive)
 ├── images/                 ← Place your PNG visualizations here
 │   └── .gitkeep           ← Placeholder file
-├── README.md               ← This file (you can replace with project-specific README)
-├── QUICK_START.md          ← 5-minute setup guide
+├── README.md               ← This file (complete documentation)
+├── QUICK_START.md          ← Fast reference guide (5-minute setup)
+├── VISUAL_GUIDE.md         ← Complete step-by-step tutorial with visuals
+├── INSTRUCTOR_SETUP.md     ← Instructor guide for template setup
 └── .gitignore              ← Ignore temporary files
 ```
 
@@ -167,63 +177,69 @@ Make your portfolio publicly accessible in 3 steps:
 
 ## Working as a Group
 
-### Web-Based Workflow (No Command Line!)
+**📖 For complete group workflow guide, see [VISUAL_GUIDE.md](VISUAL_GUIDE.md) Steps 10-15**
 
-**Recommended approach for editing directly on GitHub:**
+### GitHub Desktop Workflow (Recommended)
 
-1. **One person creates the repository** from this template
-2. **Add all group members** as collaborators:
+**Best for: Groups working on the same repository with frequent edits**
+
+1. **Designate repository owner:**
+   - Choose one person to create the repository from template
+   - This person's GitHub account will host the repository
+2. **Owner adds collaborators:**
    - Settings → Collaborators → Add people
-   - Enter their GitHub usernames
-3. **Divide sections** (coordinate who edits what):
-   - Person A: Research Question, Data & Methods
-   - Person B: Results & Analysis, visualizations
-   - Person C: Key Findings, Critical Reflection
-4. **Each person edits on GitHub:**
-   - Click `index.html` → Click ✏️ (pencil icon)
-   - Edit your section
-   - Add commit message like "Add data and methods section"
-   - Click "Commit changes"
-5. **Avoid editing simultaneously:**
-   - **Important:** Don't edit the same file at the same time!
-   - Coordinate on Slack/text: "I'm editing the Research Question now"
-   - Refresh the page before editing to see latest changes
-6. **Upload images:**
-   - Go to `images/` folder
-   - Click "Add file" → "Upload files"
-   - Add commit message like "Add sentiment analysis chart"
+   - Enter each teammate's GitHub username
+   - Teammates accept email invitation
+3. **Everyone clones the repository:**
+   - Open GitHub Desktop
+   - File → Clone Repository
+   - Select the owner's repository
+   - Choose local save location
+4. **Follow the Golden Rule: PULL → EDIT → COMMIT → PUSH**
+   - **PULL:** Always click "Fetch origin" then "Pull" before editing
+   - **EDIT:** Make your changes to your assigned section
+   - **COMMIT:** Add descriptive message, click "Commit to main"
+   - **PUSH:** Click "Push origin" to sync changes to GitHub
+5. **Coordinate sections:**
+   - Assign specific sections to each person
+   - Communicate before editing: "Editing Methods section now"
+   - Wait for teammate to push before you start editing
+6. **Handle merge conflicts:**
+   - GitHub Desktop will alert you if conflicts occur
+   - Open conflicted file in text editor
+   - Look for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+   - Choose which version to keep or combine both
+   - Save file, commit, and push
 
-### Handling Conflicts
+### Communication is Key
 
-If you both edit at the same time, you might see an error:
+**Before editing:**
+```
+"Pulling latest changes now"
+"Editing Research Question - will take ~15 min"
+```
 
-**Solution 1: Take turns**
-- Communicate before editing: "I'm working on the Methods section now"
-- Wait for teammate to commit before you start editing
+**After editing:**
+```
+"Committed and pushed Methods section"
+"Done! Safe to pull and edit now"
+```
 
-**Solution 2: Work in separate files**
-- One person creates `draft.md` with their content
-- Main editor copies content into `index.html` later
+**Tools for coordination:**
+- Slack / Discord / GroupMe / Text messages
+- Regular check-ins via Zoom/Google Meet
 
-**Solution 3: Download and merge manually**
-- Download both versions
-- Copy/paste sections together in text editor
-- Upload merged version
+### Division of Labor Example
 
-### Local Editing Workflow (Optional)
+**3-person group:**
+- Person A: Research Question, Background → Session 1
+- Person B: Data & Methods, Analysis → Session 2  
+- Person C: Findings, Reflection → Session 3
+- One person: Upload all images in one batch
 
-If your group prefers to edit locally with VS Code:
-
-1. **Each person downloads** repository as ZIP (Code → Download ZIP)
-2. **Edit your section** in your local file
-3. **Coordinate before uploading:**
-   - "I'm uploading the Research Question section now"
-4. **Upload via GitHub web:**
-   - Add file → Upload files
-   - Drag `index.html`
-   - Commit changes
-
-**Tip:** Keep communication open - conflicts happen when two people upload different versions of the same file!
+**2-person group:**
+- Person A: Research Question, Data & Methods, Reflection
+- Person B: Analysis, Findings, Images
 
 ---
 

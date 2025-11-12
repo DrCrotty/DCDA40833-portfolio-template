@@ -1,8 +1,8 @@
 # Quick Start Guide
 
-## 5-Minute Setup (No Downloads Required!)
+## Two Ways to Work
 
-### Option A: Edit on GitHub (Easiest - No Command Line!)
+### Option A: Web-Only Workflow (Quick Edits)
 
 1. **Create your copy:**
    - Click green **"Use this template"** button at top
@@ -30,34 +30,47 @@
    - Click Save
    - Your site will be live at: `YOUR-USERNAME.github.io/your-project-name`
 
-### Option B: Download and Edit Locally
+### Option B: GitHub Desktop Workflow (Recommended for Groups)
 
-1. **Get the template:**
-   - Click green "Code" button → Download ZIP
-   - Extract folder and rename to your project name
+**Best for:** Group projects, frequent edits, working offline
 
-2. **Edit in text editor:**
-   - Open `index.html` in VS Code (or any text editor)
-   - Use Find & Replace (Ctrl+F / Cmd+F):
+1. **Create your copy first:**
+   - Click green **"Use this template"** button at top
+   - Name it: `your-project-name`
+   - Make it **Public**
+   - Click "Create repository from template"
+
+2. **Clone with GitHub Desktop:**
+   - Click green "Code" button → "Open with GitHub Desktop"
+   - Choose where to save on your computer
+   - Click "Clone"
+
+3. **Edit in text editor:**
+   - Right-click repository in GitHub Desktop → "Open in Visual Studio Code" (or your preferred editor)
+   - Open `index.html` and use Find & Replace (Ctrl+F / Cmd+F):
      - Replace `Your Name` → Your actual name
      - Replace `Your Project Title` → Your project title
      - Replace `yourusername` → Your GitHub username
 
-3. **Fill in content:**
+4. **Fill in content:**
    - Look for `<!-- TODO: ... -->` comments
    - Replace with your research content
 
-4. **Add images:**
+5. **Add images:**
    - Export visualizations from Google Colab as PNG
-   - Save to `images/` folder
+   - Save to `images/` folder in your local repository
 
-5. **Upload to GitHub:**
-   - Create new repository on GitHub (make it Public)
-   - Click "Add file" → "Upload files"
-   - Drag all files from your folder
-   - Click "Commit changes"
+6. **Commit and push changes:**
+   - Go to GitHub Desktop
+   - Add commit message (e.g., "Added my content and visualizations")
+   - Click "Commit to main"
+   - Click "Push origin" to sync to GitHub
 
-6. **Enable GitHub Pages** (same as Option A above)
+7. **Enable GitHub Pages:**
+   - Go to Settings → Pages on GitHub
+   - Source: Deploy from branch `main`
+   - Click Save
+   - Your site will be live at: `YOUR-USERNAME.github.io/your-project-name`
 
 ## Key Sections to Fill In
 

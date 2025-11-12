@@ -1,23 +1,17 @@
 # Visual Guide: GitHub Collaboration for Portfolio Projects
 ## No Command Line Required!
 
-This guide provides step-by-step screenshots and instructions for using GitHub's web interface to create and collaborate on your portfolio.
-
-> **💡 Tip:** This can be used as presentation slides or as a visual reference guide.
+This guide provides step-by-step instructions for using GitHub's web interface to create and collaborate on your portfolio.
 
 ---
 
-## Slide 1: Getting Started
+## What You'll Learn
 
-### What You'll Learn
-
-✅ How to create your portfolio from the template (2 minutes)
-✅ How to edit HTML directly on GitHub (5 minutes)
-✅ How to upload images (2 minutes)
-✅ How to collaborate with your group (5 minutes)
-✅ How to publish with GitHub Pages (2 minutes)
-
-**Total time: ~15 minutes**
+✅ How to create your portfolio from the template
+✅ How to edit HTML directly on GitHub
+✅ How to upload images
+✅ How to collaborate with your group
+✅ How to publish with GitHub Pages
 
 **What you need:**
 - A GitHub account (free)
@@ -26,7 +20,7 @@ This guide provides step-by-step screenshots and instructions for using GitHub's
 
 ---
 
-## Slide 2: Step 1 - Use the Template
+## Step 1: Use the Template
 
 ### Creating Your Portfolio Repository
 
@@ -49,7 +43,7 @@ This guide provides step-by-step screenshots and instructions for using GitHub's
 
 ---
 
-## Slide 3: Step 2 - Name Your Repository
+## Step 2: Name Your Repository
 
 ### Fill in Repository Details
 
@@ -79,7 +73,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 4: Step 3 - Your New Repository
+## Step 3: Your New Repository
 
 ### What You Just Created
 
@@ -103,7 +97,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 5: Step 4 - Edit HTML on GitHub
+## Step 4: Edit HTML on GitHub
 
 ### How to Edit Files Directly on GitHub
 
@@ -131,7 +125,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 6: Step 5 - Make Your Edits
+## Step 5: Make Your Edits
 
 ### What to Change in index.html
 
@@ -158,7 +152,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 7: Step 6 - Add Your Content
+## Step 6: Add Your Content
 
 ### Finding the TODO Markers
 
@@ -182,7 +176,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 8: Step 7 - Commit Your Changes
+## Step 7: Commit Your Changes
 
 ### Saving Your Edits to GitHub
 
@@ -212,7 +206,7 @@ Description (optional): [_________________]
 
 ---
 
-## Slide 9: Step 8 - Upload Visualizations
+## Step 8: Upload Visualizations
 
 ### Adding PNG Files from Google Colab
 
@@ -238,7 +232,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 10: Visual - Upload Process
+## Step 9: Upload Process Visual
 
 ### What the Upload Screen Looks Like
 
@@ -266,9 +260,58 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 11: GROUP WORK - Add Collaborators
+## Step 10: Designate Repository Owner (Group Work)
+
+### Before You Start: Choose Your Team Lead
+
+**⚠️ IMPORTANT: Only ONE person creates the repository**
+
+**Group decision time:**
+
+```
+Your group needs to choose ONE person to:
+✅ Create the repository from the template
+✅ Own the repository on their GitHub account
+✅ Add everyone else as collaborators
+```
+
+**Who should be the repository owner?**
+
+Good choices:
+- The person most comfortable with GitHub
+- Your designated "web developer" for the project
+- Someone who will stay organized and responsive
+- Anyone willing to be the main point of contact
+
+**What happens:**
+
+```
+Step 1: Repository Owner creates repo from template
+   ↓
+Step 2: Repository Owner adds teammates as collaborators
+   ↓
+Step 3: Everyone else receives invitation email
+   ↓
+Step 4: Everyone accepts invitation
+   ↓
+Step 5: Everyone clones the repository
+   ↓
+Step 6: Team works together!
+```
+
+**Repository will live at:**
+- `https://github.com/OWNER-USERNAME/project-name`
+- Example: `https://github.com/alexchen/twitter-sentiment-analysis`
+
+**Note:** Even though it's on one person's account, **everyone has full edit access** once added as collaborators!
+
+---
+
+## Step 11: Add Collaborators (Group Work)
 
 ### Setting Up Team Access
+
+**⚠️ This step is done by the REPOSITORY OWNER only**
 
 **Go to:** Settings tab → Collaborators (left sidebar)
 
@@ -292,28 +335,144 @@ plt.savefig('sentiment-distribution.png',
 4. They'll receive an email invitation
 5. Repeat for all group members
 
+**After adding collaborators:**
+- Tell your teammates to check their email
+- They must **accept the invitation** to get access
+- Then everyone can proceed to clone the repository
+
 ---
 
-## Slide 12: GROUP WORK - Coordination Strategy
+## Step 12: Clone to GitHub Desktop (Group Work)
 
-### Avoiding Conflicts When Editing Together
+### Getting the Repository on Your Computer
 
-**⚠️ Problem:** Two people editing `index.html` at the same time = conflict!
+**⚠️ IMPORTANT: ALL team members do this step (including the owner)**
 
-**✅ Solution: Take Turns**
+**After accepting the collaborator invitation:**
 
-**Before editing, communicate:**
+**In GitHub Desktop:**
+
+1. Open GitHub Desktop
+2. File → Clone Repository
+3. Find the repository: `owner-username/project-name`
+   - **Note:** Look for the OWNER's username, not yours!
+   - Example: `alexchen/twitter-sentiment-analysis`
+4. Choose where to save it on your computer
+5. Click **"Clone"**
+
+**What this does:**
+- Downloads the entire repository to your computer
+- Keeps it connected to GitHub
+- Allows you to pull updates and push changes
+
+**Visual:**
+```
+┌─────────────────────────────────────────────────┐
+│  Clone a Repository                             │
+├─────────────────────────────────────────────────┤
+│  GitHub.com                                     │
+│  ┌───────────────────────────────────────────┐ │
+│  │ 🔍 Filter your repositories                │ │
+│  │                                            │ │
+│  │ your-username/twitter-sentiment-analysis  │ │
+│  │ your-username/other-project               │ │
+│  └───────────────────────────────────────────┘ │
+│                                                 │
+│  Local Path:                                    │
+│  [/Users/you/Documents/GitHub]  [Choose...]    │
+│                                                 │
+│                    [Cancel]  [Clone]            │
+└─────────────────────────────────────────────────┘
+```
+
+---
+
+## Step 13: Coordination Strategy (Group Work)
+
+### The Golden Rule: **PULL → EDIT → COMMIT → PUSH**
+
+**⚠️ CRITICAL: Always pull before editing!**
+
+### The Pull-Before-Edit Workflow
+
+**Every time before you start working:**
 
 ```
-👤 Person A: "I'm editing the Research Question section now"
-👤 Person B: "OK, I'll wait and then do Methods"
+Step 1: PULL (Get latest changes)
+   ↓
+Step 2: EDIT (Make your changes)
+   ↓
+Step 3: COMMIT (Save with message)
+   ↓
+Step 4: PUSH (Send to GitHub)
+```
+
+**In GitHub Desktop:**
+
+```
+┌─────────────────────────────────────────────────┐
+│  Current Repository: twitter-sentiment-analysis │
+├─────────────────────────────────────────────────┤
+│  Current Branch: main                           │
+│                                                 │
+│  [Fetch origin]  ← Click this FIRST            │
+│                                                 │
+│  ↓ If there are changes:                       │
+│                                                 │
+│  [Pull origin]   ← Then click this             │
+└─────────────────────────────────────────────────┘
+```
+
+### File Locking Strategy: "Claim Your Section"
+
+**⚠️ Problem:** Two people editing `index.html` at the same time = merge conflict!
+
+**✅ Solution: Section-Based Workflow**
+
+**Before editing, announce in your group chat:**
+
+```
+👤 Alex: "Claiming Research Question section - editing now"
+👤 Blake: "OK! I'll do Methods section next"
+👤 Casey: "Great! I'll wait and then do Results"
+```
+
+**While someone is editing:**
+
+```
+👤 Alex: [Currently editing]
+👤 Blake: [Waiting - maybe working on visualization code]
+👤 Casey: [Waiting - maybe preparing content in Google Doc]
 ```
 
 **After editing:**
 
 ```
-👤 Person A: "Done! Committed Research Question section"
-👤 Person B: "Thanks! Starting Methods section now"
+👤 Alex: "Done with Research Question! Committed & pushed."
+👤 Blake: "Thanks! Pulling now... Starting Methods section"
+```
+
+### Communication Templates
+
+**Starting work:**
+```
+"Pulling latest changes now"
+"Editing [section name] - will take ~15 minutes"
+"Working on index.html - don't edit until I push"
+```
+
+**Finishing work:**
+```
+"Committed and pushed [section name]"
+"Done! Safe to pull and edit now"
+"Pushed my changes - please pull before you start"
+```
+
+**Coordination:**
+```
+"Can you wait 10 min? Almost done with my section"
+"I'll edit after you push"
+"Let's both work on visualizations - different files, no conflict!"
 ```
 
 **Tools for coordination:**
@@ -323,7 +482,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 13: GROUP WORK - Division of Labor
+## Step 14: Division of Labor (Group Work)
 
 ### Suggested Section Assignments
 
@@ -331,76 +490,179 @@ plt.savefig('sentiment-distribution.png',
 
 ```
 📝 Person A:
-   • Research Question
-   • Data & Methods
+   • Research Question (index.html lines 45-60)
+   • Background Context (lines 65-80)
+   • Pull → Edit → Commit → Push (Session 1)
 
 📊 Person B:
-   • Results & Analysis
-   • Upload all visualizations
+   • Data & Methods (index.html lines 85-120)
+   • Results & Analysis (lines 125-160)
+   • Pull → Edit → Commit → Push (Session 2)
 
 💭 Person C:
-   • Key Findings
-   • Critical Reflection
+   • Key Findings (index.html lines 165-180)
+   • Critical Reflection (lines 185-220)
+   • Pull → Edit → Commit → Push (Session 3)
 ```
+
+**Upload images strategy:**
+- Person with best visualization should upload all images at once
+- Coordinate: "I'm uploading all 5 images now"
+- Others: Pull after images are pushed
 
 **For a 2-person group:**
 ```
-📝 Person A: Research Question, Data & Methods, Reflection
-📊 Person B: Results & Analysis, Findings, Images
+📝 Person A: 
+   • Research Question, Background, Reflection
+   • Session 1: Pull → Edit top sections → Push
+   
+📊 Person B: 
+   • Data & Methods, Results, Findings
+   • Session 2: Pull → Edit middle sections → Push
+   • Upload all images in Session 3
 ```
 
 **Everyone:** Review final portfolio together before submitting!
 
 ---
 
-## Slide 14: GROUP WORK - Handling Conflicts
+## Step 15: Handling Merge Conflicts (Group Work)
 
-### What If You Both Edit at the Same Time?
+### Prevention is Best!
 
-**Error you might see:**
+**✅ Best practices to AVOID conflicts:**
+
+1. **Always pull before editing** (most important!)
+2. **Communicate in real-time** (Slack/Discord/text)
+3. **Work on different sections** (claim your section)
+4. **Push immediately after finishing** (don't wait days)
+5. **Don't edit on GitHub.com AND Desktop simultaneously**
+
+### What If a Conflict Happens?
+
+**You'll see this in GitHub Desktop:**
 
 ```
 ┌─────────────────────────────────────────────────┐
-│  ⚠️ This file has been modified                 │
+│  ⚠️ Resolve Conflicts                           │
+├─────────────────────────────────────────────────┤
+│  1 conflicted file                              │
 │                                                 │
-│  Someone else changed this file while you were │
-│  editing. Please refresh and try again.        │
+│  index.html                                     │
+│  [Open in Visual Studio Code]                   │
 │                                                 │
-│         [Cancel]  [Refresh]                     │
+│  After resolving, commit the merge.            │
 └─────────────────────────────────────────────────┘
+```
+
+**Step-by-step resolution:**
+
+**1. Don't panic!** Your work isn't lost.
+
+**2. Open the conflicted file** (click "Open in Visual Studio Code" or your text editor)
+
+**3. Look for conflict markers:**
+```html
+<<<<<<< HEAD
+<p>Alex's version of this paragraph</p>
+=======
+<p>Blake's version of this paragraph</p>
+>>>>>>> main
+```
+
+**4. Decide what to keep:**
+
+Option A: Keep Alex's version (delete Blake's)
+```html
+<p>Alex's version of this paragraph</p>
+```
+
+Option B: Keep Blake's version (delete Alex's)
+```html
+<p>Blake's version of this paragraph</p>
+```
+
+Option C: Combine both (best option!)
+```html
+<p>Alex's version with Blake's additions</p>
+```
+
+**5. Remove conflict markers** (`<<<<<<<`, `=======`, `>>>>>>>`)
+
+**6. Save the file**
+
+**7. In GitHub Desktop:**
+   - File should now show as "Resolved"
+   - Add commit message: "Resolved merge conflict in index.html"
+   - Click "Commit to main"
+   - Click "Push origin"
+
+**8. Tell your group:** "Conflict resolved! Everyone pull now."
+
+### Real-World Scenario
+
+**What went wrong:**
+
+```
+👤 Alex: Pulled at 2:00 PM, started editing
+👤 Blake: Pulled at 2:05 PM, started editing same file
+👤 Alex: Pushed changes at 2:20 PM ✅
+👤 Blake: Tries to push at 2:25 PM ❌ CONFLICT!
 ```
 
 **How to fix:**
 
-1. **Copy your changes** to Notepad/TextEdit (don't lose your work!)
-2. **Refresh** the page
-3. **Click edit** again (✏️ pencil icon)
-4. **See your teammate's changes**
-5. **Add your section** to the updated version
-6. **Commit** with message: "Add my section to [teammate]'s changes"
+```
+👤 Blake: "I got a conflict - one sec"
+         [Opens index.html in editor]
+         [Sees both versions]
+         [Keeps both, removes markers]
+         [Commits: "Resolved conflict - kept both sections"]
+         [Pushes]
+👤 Blake: "Fixed! Everyone pull latest version"
+👤 Alex: "Got it!" [Pulls]
+👤 Casey: "Pulled!" [Pulls]
+```
+
+### When to Ask for Help
+
+**❌ DON'T try to resolve if:**
+- You're not sure which version is correct
+- Multiple files have conflicts
+- The conflict involves code you didn't write
+
+**✅ DO ask instructor/TA if:**
+- You get conflicts on multiple files
+- You're confused about what to keep
+- The conflict involves HTML structure (not just content)
+
+**In office hours, bring:**
+- Screenshot of GitHub Desktop conflict view
+- The conflicted file open in text editor
+- Timeline of who edited when
 
 ---
 
-## Slide 15: Step 9 - Preview Your Work
+## Step 16: Preview Your Work
 
 ### Checking Your Portfolio Before Publishing
 
 **Option 1: View on GitHub (limited preview)**
 - Just see the HTML code, not the styled page
 
-**Option 2: Download and open locally**
+**Option 2: Open locally from GitHub Desktop**
 
-1. Click **"Code"** button (green)
-2. Select **"Download ZIP"**
-3. Extract the folder
-4. Double-click `index.html`
-5. Opens in your browser with full styling!
+1. In GitHub Desktop, right-click your repository
+2. Select "Open in Visual Studio Code" (or your preferred editor)
+3. Open `index.html`
+4. Right-click the file and "Open with Live Server" (if you have the extension)
+5. Or just double-click `index.html` in Finder/Explorer
 
-**Option 3: Enable GitHub Pages (see next slide)**
+**Option 3: Enable GitHub Pages (see next step)**
 
 ---
 
-## Slide 16: Step 10 - Enable GitHub Pages
+## Step 17: Enable GitHub Pages
 
 ### Publishing Your Portfolio to the Web
 
@@ -427,7 +689,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 17: Step 11 - Get Your URL
+## Step 18: Get Your URL
 
 ### Your Portfolio Is Live!
 
@@ -453,9 +715,9 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 18: Troubleshooting - Images Not Showing
+## Troubleshooting
 
-### Common Problem: Broken Image Icons
+### Images Not Showing
 
 **What you see on your portfolio:**
 ```
@@ -481,9 +743,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 19: Troubleshooting - GitHub Pages Not Working
-
-### Common Problem: 404 Page Not Found
+### GitHub Pages Not Working
 
 **What you see when visiting your URL:**
 ```
@@ -506,7 +766,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 20: Best Practices
+## Best Practices
 
 ### Tips for Success
 
@@ -526,9 +786,11 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 21: Workflow Summary
+## Workflow Summary
 
 ### Complete Process at a Glance
+
+**Individual Projects:**
 
 ```
 1. Use Template → Create Repository
@@ -548,14 +810,11 @@ plt.savefig('sentiment-distribution.png',
 8. Submit GitHub Pages URL
 ```
 
-**Total time: ~15 minutes for initial setup**
-**Editing time: Varies based on content length**
-
 ---
 
-## Slide 22: Group Workflow Summary
+### Group Projects Workflow
 
-### Complete Process for Teams
+**Complete Process for Teams:**
 
 ```
 1. ONE PERSON: Use template, create repository
@@ -581,14 +840,14 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 23: Resources
+## Resources
 
 ### Where to Get Help
 
 **📖 Documentation in Template:**
 - `README.md` - Complete guide
 - `QUICK_START.md` - Fast reference
-- `WEB_WORKFLOW.md` - Detailed walkthrough (this guide!)
+- `WEB_WORKFLOW.md` - Detailed walkthrough
 
 **🆘 When You Need Help:**
 - Check Troubleshooting sections in README
@@ -603,9 +862,9 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 24: You're Ready!
+## Quick Start Checklist
 
-### Everything You Need to Succeed
+### Getting Started Today
 
 **What you learned:**
 ✅ Create portfolio from template (no code!)
@@ -624,30 +883,7 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-## Slide 25: Next Steps
-
-### Getting Started Today
-
-**1. Create your repository:**
-   - Go to: https://github.com/TCU-DCDA/WRIT20833-portfolio-template
-   - Click "Use this template"
-
-**2. Make your first edit:**
-   - Click `index.html`
-   - Click ✏️ pencil icon
-   - Replace "Your Name" with your actual name
-   - Commit changes
-
-**3. Enable GitHub Pages:**
-   - Settings → Pages
-   - Deploy from branch: `main`
-   - Save
-
-**You'll have a live portfolio in 5 minutes!** 🎉
-
----
-
-## Appendix: Quick Reference Card
+## Quick Reference Card
 
 ### One-Page Cheat Sheet
 
@@ -678,7 +914,6 @@ plt.savefig('sentiment-distribution.png',
 
 ---
 
-**End of Visual Guide**
+**Template:** https://github.com/TCU-DCDA/WRIT20833-portfolio-template
 
-Template: https://github.com/TCU-DCDA/WRIT20833-portfolio-template
-Questions? See README.md or attend office hours!
+**Questions?** See README.md or attend office hours!

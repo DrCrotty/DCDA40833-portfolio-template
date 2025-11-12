@@ -36,12 +36,14 @@ Share this link with students: **https://github.com/TCU-DCDA/WRIT20833-portfolio
    - Name: their project name (e.g., `twitter-sentiment-analysis`)
    - Make it Public (required for GitHub Pages)
    - Click "Create repository from template"
-3. **Clone to their computer:**
-   ```bash
-   git clone https://github.com/THEIR-USERNAME/their-project-name.git
-   cd their-project-name
-   ```
+3. **Clone to their computer using GitHub Desktop:**
+   - Click green "Code" button → "Open with GitHub Desktop"
+   - Choose save location
+   - Click "Clone"
 4. **Start editing** `index.html` following the README instructions
+5. **Commit and push changes:**
+   - Use GitHub Desktop to commit changes with descriptive messages
+   - Click "Push origin" to sync to GitHub
 
 ### For Group Projects
 
@@ -50,7 +52,11 @@ One student creates the repository from template, then:
 2. **Click "Add people"**
 3. **Enter teammates' GitHub usernames**
 
-All group members can now clone and collaborate on the same repository.
+All group members can now:
+- Clone using GitHub Desktop (Code → Open with GitHub Desktop)
+- Work on different sections of the project
+- Commit and push their changes through GitHub Desktop
+- GitHub Desktop will handle fetching and merging teammates' changes
 
 ---
 
@@ -159,10 +165,13 @@ This lets you test the template as students will see it live.
 **Problem:** Students get merge conflicts
 
 **Solution:**
-- Show them how to use branches
-- Divide sections clearly (one person per section)
-- Pull before pushing: `git pull` then `git push`
-- Attend office hours for hands-on conflict resolution
+- GitHub Desktop will alert them to conflicts with a clear interface
+- Show them how to resolve conflicts in GitHub Desktop's merge editor
+- Best practices to avoid conflicts:
+  - Divide sections clearly (one person per section)
+  - Always fetch/pull before starting work (Repository → Pull in GitHub Desktop)
+  - Commit and push frequently
+- Attend office hours for hands-on conflict resolution if needed
 
 ---
 
@@ -204,11 +213,12 @@ individual contributions in the reflection section.
 ### Before Project Starts
 - **Demo the template** in class
 - **Show "Use this template" workflow**
+- **Demo cloning in GitHub Desktop** (since students have experience with it)
 - **Walk through one section** together
 - **Explain GitHub Pages deployment**
 
 ### During Project Work
-- **Office hours** for git troubleshooting
+- **Office hours** for troubleshooting (most git issues handled by GitHub Desktop)
 - **Canvas discussion** for common questions
 - **Group checkpoints** to catch issues early
 
@@ -222,6 +232,9 @@ A: Absolutely. All instructions work for individuals too.
 
 **Q: "What if I want to make my repo private after grading?"**
 A: Settings → Change visibility → Make private (after final grades)
+
+**Q: "Should I use GitHub Desktop or command line?"**
+A: GitHub Desktop is recommended since you're already familiar with it. It handles most git operations with a user-friendly interface.
 
 ---
 
