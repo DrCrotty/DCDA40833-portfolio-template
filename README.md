@@ -10,7 +10,7 @@ This final submission asks you to **refine, polish, and unify** your portfolio i
 
 ## Getting Started
 
-**New to this template?** See [EDITING_GUIDE.md](EDITING_GUIDE.md) for a complete walkthrough of the editing workflow.
+**New to this template?** See [EDITING_GUIDE.md](archive/EDITING_GUIDE.md) for a complete walkthrough of the editing workflow.
 
 ### Template Workflow
 
@@ -49,8 +49,9 @@ portfolio-template/
 │   └── styles.css          ← Professional CSS (TCU colors, responsive)
 ├── images/                 ← Place your images here
 │   └── .gitkeep           ← Placeholder file
+├── archive/                ← Guides and documentation
+│   └── EDITING_GUIDE.md   ← Step-by-step editing workflow
 ├── README.md               ← This file (overview & requirements)
-├── EDITING_GUIDE.md        ← Step-by-step editing workflow
 └── .gitignore              ← Ignore temporary files
 ```
 
@@ -374,7 +375,7 @@ Your instructors will review both your live site and your repository code (inclu
 
 ### Getting Help
 
-1. **Check [EDITING_GUIDE.md](EDITING_GUIDE.md)** - Workflow guide with troubleshooting
+1. **Check [EDITING_GUIDE.md](archive/EDITING_GUIDE.md)** - Workflow guide with troubleshooting
 2. **Review lab materials** - Revisit instructions from Labs 1-6
 3. **Test in browser** - Open Developer Tools (F12) to see errors
 4. **Office hours** - Bring specific questions or errors
