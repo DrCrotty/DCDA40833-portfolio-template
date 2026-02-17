@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Tool Evaluation - Lab 2">
+    <meta name="author" content="Your Name">
+    <title>AI Tool Evaluation | DCDA 40833 Skills Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation: Links to all portfolio pages -->
+    <nav>
+        <!-- Hamburger menu button (visible only on mobile) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        
+        <!-- Navigation menu (collapsible on mobile) -->
+        <ul id="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ai-evaluation.html">AI Evaluation</a></li>
+            <li><a href="tufte-critique.html">Tufte Critique</a></li>
+            <li><a href="tableau-visualization.html">Tableau Viz</a></li>
+            <li><a href="lab05.html">Lab 5</a></li>
+            <li><a href="hometown-map.html">Hometown Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header: Your name and course info -->
+    <header>
+        <h1>Your Name</h1>
+        <p>DCDA 40833 Skills Portfolio | Spring 2026</p>
+    </header>
+
+    <main>
+        <!-- Placeholder content for Lab 2: AI Tool Evaluation -->
+        <section id="ai-evaluation">
+            <h2>AI Tool Evaluation</h2>
+            <span class="lab-tag">Lab 2</span>
+            
+            <p><em>Content coming soon...</em></p>
+            
+            <p>This page will feature an analysis of AI tools and their capabilities, exploring how artificial intelligence is changing digital culture and data analytics.</p>
+            
+            <p>Expected content includes:</p>
+            <ul>
+                <li>Evaluation of 2-3 AI tools</li>
+                <li>Analysis of capabilities and limitations (500-750 words)</li>
+                <li>Evidence and examples of tool performance</li>
+                <li>Reflection on implications for digital culture</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer: Links and copyright -->
+    <footer>
+        <p><a href="https://github.com/yourusername/your-repo-name">View Repository on GitHub</a></p>
+        <p>&copy; 2026 Your Name | DCDA 40833 | TCU</p>
+    </footer>
+
+    <!-- JavaScript for hamburger menu toggle -->
+    <script>
+        // Get references to hamburger button and navigation menu
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        
+        // Toggle menu visibility when hamburger is clicked
+        hamburger.addEventListener('click', function() {
+            // Toggle 'active' class on both hamburger and menu
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            
+            // Update aria-expanded for accessibility
+            const isExpanded = hamburger.classList.contains('active');
+            hamburger.setAttribute('aria-expanded', isExpanded);
+        });
+        
+        // Close menu when a navigation link is clicked (better UX on mobile)
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+</html>
