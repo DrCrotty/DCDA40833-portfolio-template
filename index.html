@@ -11,7 +11,15 @@
 <body>
     <!-- Navigation: Links to all portfolio pages -->
     <nav>
-        <ul>
+        <!-- Hamburger menu button (visible only on mobile) -->
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+        
+        <!-- Navigation menu (collapsible on mobile) -->
+        <ul id="nav-menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="ai-evaluation.html">AI Evaluation</a></li>
             <li><a href="tufte-critique.html">Tufte Critique</a></li>
@@ -114,5 +122,33 @@
         <p><a href="https://github.com/yourusername/your-repo-name">View Repository on GitHub</a></p>
         <p>&copy; 2026 Your Name | DCDA 40833 | TCU</p>
     </footer>
+
+    <!-- JavaScript for hamburger menu toggle -->
+    <script>
+        // Get references to hamburger button and navigation menu
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+        
+        // Toggle menu visibility when hamburger is clicked
+        hamburger.addEventListener('click', function() {
+            // Toggle 'active' class on both hamburger and menu
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            
+            // Update aria-expanded for accessibility
+            const isExpanded = hamburger.classList.contains('active');
+            hamburger.setAttribute('aria-expanded', isExpanded);
+        });
+        
+        // Close menu when a navigation link is clicked (better UX on mobile)
+        const navLinks = navMenu.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                hamburger.classList.remove('active');
+                navMenu.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 </html>
